@@ -1,0 +1,219 @@
+html, body{
+    height: 100%;
+    padding 0px;
+    margin: 0px;  
+  }
+  
+  .wrapper{
+    background-image: url('http://eskipaper.com/images/silver-background-5.jpg');
+    height: 100%;  
+    align-content: center;
+    padding-top: 100px;
+  }
+  
+  .game{
+    width: 750px;
+    height: 750px;
+    background-color: grey;
+    border-radius: 375px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .quarter-round.game-button{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .quarter-round.game-button.green{
+    background: green;
+    border-radius: 375px 0px 0px 0px;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .quarter-round.game-button.red{
+    background: red;
+    border-radius: 0px 375px 0px 0px;
+    top: 50px;
+    left: 400px;
+  }
+  
+  .quarter-round.game-button.yellow{
+    background: yellow;
+    border-radius: 0px 0px 0px 375px;
+    top: 400px;
+    left: 50px;
+  }
+  
+  .quarter-round.game-button.blue{
+    background: blue;
+    border-radius: 0px 0px 375px 0px;
+    top: 400px;
+    left: 400px;
+  }
+  
+  .control-panel{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 150px;
+    border: 25px solid grey;
+    top: 225px;
+    left: 225px;
+    z-index: 10;
+  }
+  
+  .brand{
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+    top: 25px;
+    width: 250px;
+    font-weight: 800;
+  }
+  
+  .score{
+    width: 125px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    text-align: center;
+  }
+  
+  .score.display{
+    width: 75px;
+    height: 50px;
+    background: black;
+    top: -50px;
+    left: 12px;
+    border-radius: 4px;
+  }
+  
+  .start{
+    position: absolute;
+    top: 150px;
+    width: 125px;
+    left: 125px;
+    text-align: center;
+  }
+  
+  .start-button{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 17px;
+    border: 4px solid grey;
+    background: red;
+    top: -40px;
+    left: 45px;
+  }
+  
+  .on-off{
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    top: 180px;
+  }
+  
+  .on-off.switch{
+    width: 25px;
+    height: 25px;
+    background: blue;
+    left: 95px;
+    top: 20px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 5px 2px 30px;
+  }
+  
+  .on-off.switch.on{
+    border-width: 2px 30px 2px 5px;
+  }
+  
+  .digit{
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+  }
+  
+  .first.digit{
+    left: 0px;  
+  }
+  
+  .second.digit{
+    left: 35px;
+  }
+  
+  .segment{
+    background: #4F0000;
+    position: absolute;
+    border-radius: 2px;
+  }
+  
+  .segment.horizontal{
+    width: 20px;
+    height: 2px;
+    left: 10px;
+  }
+  
+  .segment.vertical{
+    width: 2px;
+    height: 20px;  
+  }
+  
+  .segment.horizontal.one{  
+    top: 5px;
+  }
+  
+  .segment.horizontal.four{  
+    top: 45px;
+  }
+  
+  .segment.horizontal.seven{  
+    top: 25px;
+  }
+  
+  .segment.vertical.two{
+    top: 5px;
+    left: 32px;
+  }
+  
+  .segment.vertical.three{
+    left: 32px;
+    top: 27px;
+  }
+  
+  .segment.vertical.five{
+    left: 6px;
+    top: 27px;
+  }
+  
+  .segment.vertical.six{
+    left: 6px;
+    top: 5px;
+  }
+  
+  .segment.lit{
+    background: red;
+  }
+  
+  #red.lit{
+    background: #ff5555
+  }
+  
+  #green.lit{
+    background: #009400
+  }
+  
+  #blue.lit{
+    background: #5555ff
+  }
+  
+  #yellow.lit{
+    background: #ffff90
+  }
